@@ -1,0 +1,10 @@
+n1=234.67128
+print(f"The number is:{n1.2f})
+
+
+import math
+r=float(input("enter the radius:"))
+area = math.pi*r*r
+circumference=2*math.pi*r
+print("area of circle is:",area)
+print("circumferemce of circle is",circumference)
