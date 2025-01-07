@@ -32,7 +32,6 @@ keyword.kwlist
 """
 
 
-
 '''
 _a  ----->protected variable
 __a ----->private variable
