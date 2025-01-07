@@ -124,3 +124,91 @@ ________________________________________________________________________________
 x=2.3+4j
 print(x.real)
 print(x.imag)
+_______________________________________________________________________________________________________________________________________
+#type conversion functions
+
+
+# bin()conversion of decimal to binary
+# hex()conversion of decimal to hexadecimal
+# oct()conversion of decimal to octal
+
+# ord() equivalent character
+# chr()equivalent askii
+
+int(True)
+#int(None) #invalid
+float(False)
+
+
+
+complex("10","12") or complex("4.5",19)
+complex("10","12")
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[16], line 1
+----> 1 complex("10","12")
+
+TypeError: complex() can't take second arg if first is a string
+
+_____________________________--------_______________________________-
+nool(None)
+False
+
+
+
+
+
+
+bool(" 0")#true
+bool("0")#true
+bool(0)#false
+
+
+_________________________________________________________________________________
+chr(65)
+'A'
+chr(90)
+'Z'
+a
+ord("a")
+97
+ord("z")
+122
+0
+ord(0)
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[24], line 1
+----> 1 ord(0)
+
+TypeError: ord() expected string of length 1, but int found
+
+0
+ord("0")
+48
+9
+ord("9")
+57
+A
+bool('a'>'A')
+True
+
+
+_______________________________________________________________________________________
+
+my_set={1,2,3}  #set
+my_frozenset=frozenset([1,2,3]) # frozenset
+print(my_set,type(my_set))
+print(my_frozenset,type(my_frozenset))
+
+
+{1, 2, 3} <class 'set'>
+frozenset({1, 2, 3}) <class 'frozenset'>
+
+
+
+
+
+#byte datatype
+
+
