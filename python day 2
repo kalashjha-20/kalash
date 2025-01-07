@@ -1,10 +1,34 @@
 n1=234.67128
 print(f"The number is:{n1.2f})
 
-
+"""
 import math
 r=float(input("enter the radius:"))
 area = math.pi*r*r
 circumference=2*math.pi*r
 print("area of circle is:",area)
 print("circumferemce of circle is",circumference)
+"""
+
+
+"""
+#it will give all the keywords
+
+import keyword
+keyword.kwlist
+"""
+
+
+
+'''
+_a  ----->protected variable
+__a ----->private variable
+__aaa__  -----> magic variable 
+'''
+
+downloadpython latest version
+open file location 
+type cmd
+
+pip install jupyter
+jupyter notebook
