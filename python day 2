@@ -1,6 +1,19 @@
+age=15
+name="kalash"
+print("my name is",name,"I am",age,"years")
+# f string
+print(f"Age is:{age},Name is :{name}")
+#format function
+print("Age is:{},Name is :{}".format(age,name))
 n1=234.67128
 print(f"The number is:{n1.2f})
-
+_________________________________________________________________________
+a="hello"
+b="python"
+print(a,b,sep='#')
+print(a,end=' ')
+print(b,end=' ')
+__________________________________________________________________________
 """
 import math
 r=float(input("enter the radius:"))
@@ -32,3 +45,82 @@ type cmd
 
 pip install jupyter
 jupyter notebook
+
+######################################
+id()
+function used to memory location
+#####################
+
+
+http://localhost:8888/notebooks/kalash.ipynb#
+
+
+_____________________________________________________________________________________________________________________________________________________________
+a=15
+x=101
+y=0b101 # binary number put 0b or 0B   at the time of printing decimal number will print 
+z=0b111111111111111
+'''
+c=0n122332 # shows an error
+'''
+d=0o0123 # octal number put 0o or 0O   at the time of printing decimal number will print 
+#0o786 gives an error
+print(d)
+
+e=0xFACE ## hexadecimal number put 0x or 0X   at the time of printing decimal number will print 
+#0xDEAR shows an error
+print(e)
+
+------------------------------------------------------------------------------------------
+
+
+
+# float
+a=23.45
+# b=0b23.45
+# c=0o23.45
+# d=0x23.45
+# print(c,d)
+print(a)
+b=1.2e3  # 1.2 x 10^3
+print(b)
+# float data eype can only be represented in decimal number
+#floating value can be represented by using exponential form
+
+__________________________________________________________________________________________________________________________________
+# in python a+bj is a complex number where  a is real part and j is imaginary part because in python it has no right to use i
+
+a=2+3j
+print(a)
+print(type(a))
+# x=2+j3
+# print(x)  shows an error j always uses as a suffix
+________________________________________________________________________________________________________________________________
+
+# a=2+3j
+# x=0b11+0b01j
+# y=0o11+0o01j
+# z=0x11+0x01j
+# b=0xFACE+0x01Aj
+# c=0x1F+0x0Aj
+# print(x,y,z,b,c)
+
+# all will shows an error as imaginary part can be represented only in decimal sysyem
+
+
+x=3j
+y=3+0j
+print(x)
+print(y)
+print(type(y))
+________________________________________________________________________________________________________________________________
+x=2.3+4.5j
+print(x)
+
+# complex numberusing float
+_______________________________________________________________________________________________________________________________
+# 1-> attribute to find real :real
+#2->imag:attribute to find imaginary part
+x=2.3+4j
+print(x.real)
+print(x.imag)
