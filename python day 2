@@ -62,8 +62,20 @@ The integer number is:123.456700
 The integer number is: 123.457
 The integer number is:0123.457
 **************************************************************************************
+print("binary form:{0:b}".format(123))
+print("octal form:{0:o}".format(123))
+print("hexadecimal form:{0:x}".format(123))
+print("hexadecimal form:{0:X}".format(123))
 
 
+binary form:1111011
+octal form:173
+hexadecimal form:7b
+hexadecimal form:7B
+
+
+#### to show + with number use(:+d)
+**************************************************************************************
 
 
 
@@ -375,18 +387,11 @@ OMP
 RETU
 RETUPMOC
 _________________________________________________________________________________________
-print("binary form:{0:b}".format(123))
-print("octal form:{0:o}".format(123))
-print("hexadecimal form:{0:x}".format(123))
 
-
-binary form:1111011
-octal form:173
-hexadecimal form:7b
 ____________________________________________________________________________________________
 
 
 
 ______________________________________________________________________________________
 ##********************** membership operator can be use when there is a sequence data type**********************************************
-
+************************* if we find a substring using find function if its not available then output will be -1 *************************
