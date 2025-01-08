@@ -7,12 +7,78 @@ print(f"Age is:{age},Name is :{name}")
 print("Age is:{},Name is :{}".format(age,name))
 n1=234.67128
 print(f"The number is:{n1.2f})
-_________________________________________________________________________
+
+
+age=19
+name="kalash"
+#format function
+print("My name is {0} and I am {1} years old".format(name,age))
+​
+My name is kalash and I am 19 years old
+​
+
+
+
+age=19
+name="kalash"
+#format function
+print("My name is {1} and I am {0} years old".format(name,age))
+
+My name is 19 and I am kalash years old
+
+
+
+age=19
+name="kalash"
+#format function
+print("My name is %s and I am %d years old"%(name,age))
+
+*****************************************************
+print("The integer number us:{}".format(123))
+print("The integer number us:{:d}".format(123))
+print("The integer number us:{:5d}".format(123))
+print("The integer number us:{:05d}".format(123))_________________________________________________________________________
+
+The integer number is:123
+The integer number is:123
+The integer number is:  123
+The integer number is:00123
+
+*********************************************************************************
+
+
+
+print("The integer number is:{}".format(123.4567))
+print("The integer number is:{:f}".format(123.4567))
+print("The integer number is:{:5f}".format(123.4567))
+print("The integer number is:{:05f}".format(123.4567))
+print("The integer number is:{:8.3f}".format(123.4567))
+print("The integer number is:{:08.3f}".format(123.4567))
+
+The integer number is:123.4567
+The integer number is:123.456700
+The integer number is:123.456700
+The integer number is:123.456700
+The integer number is: 123.457
+The integer number is:0123.457
+**************************************************************************************
+
+
+
+
+
 a="hello"
 b="python"
 print(a,b,sep='#')
 print(a,end=' ')
 print(b,end=' ')
+
+
+
+print("The integer number us:{}".format(123))
+print("The integer number us:{:d}".format(123))
+print("The integer number us:{:5d}".format(123))
+print("The integer number us:{:05d}".format(123))
 __________________________________________________________________________
 """
 import math
@@ -241,6 +307,86 @@ a=8
 # a//=3
 # a**=3
 print(a)
+___________________________________________________________________________________________________________________________________
+a=7
+b=5
+a=a^b#uding xor
+b=a^b
+a=a^b
+print(a,b)
+
+5 7
 
 
+________________________________________________________________________________________________________________________________________
+num= int(input("enter a number:"))
+if num&3==0:
+    print("number is divisible by 4")
+else:
+    print("number is not divisible by 4")
+
+
+
+enter a number:96
+number is divisible by 4
+___________________________________________________________________________________________________________________________________
+why ~92=-93
+
+
+
+
+
+_____________________________________________________________________________________________________________________________________
+
+
+a="COMPUTER"
+b1=a[-8:]
+print(b1)
+b=a[-8: :2]
+print(b)
+c1=a[:8]
+print(c1)
+c2=a[0:]
+print(c2)
+c=a[0:8:2]
+print(c)
+d=a[:]
+print(d)
+e=a[::-1]
+print(e)
+f=a[1:-4]
+print(f)
+g=a[8:3:-1]
+print(g)
+h=a[::-1]
+print(h)
+
+
+#output
+
+COMPUTER
+CMUE
+COMPUTER
+COMPUTER
+CMUE
+COMPUTER
+RETUPMOC
+OMP
+RETU
+RETUPMOC
+_________________________________________________________________________________________
+print("binary form:{0:b}".format(123))
+print("octal form:{0:o}".format(123))
+print("hexadecimal form:{0:x}".format(123))
+
+
+binary form:1111011
+octal form:173
+hexadecimal form:7b
+____________________________________________________________________________________________
+
+
+
+______________________________________________________________________________________
+##********************** membership operator can be use when there is a sequence data type**********************************************
 
